@@ -26,3 +26,27 @@ public void setSerialNum(int serialNum){
     return this.serialNum;
 }
 
+public String getModel(){
+    return model;
+}
+
+public void setModel(String model){
+    return this.model;
+}
+
+public String getCarrier(){
+    return carrier;
+}
+
+public void setCarrier(String carrier){
+    return this.carrier;
+}
+
+public String getPhoneNum(){
+    return phoneNum;
+}
+
+public void setPhoneNum(String phoneNum){
+    return this.phoneNum;
+}
+
