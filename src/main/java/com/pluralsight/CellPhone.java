@@ -8,6 +8,7 @@ public class CellPhone {
     private String owner;
 }
 
+// constructor
 public CellPhone(){
     this.serialNum = 0;
     this.model = "";
@@ -16,4 +17,12 @@ public CellPhone(){
     this.owner = "";
 }
 
+// Getter and Setter
+public int getSerialNum(){
+    return serialNum;
+}
+
+public void setSerialNum(int serialNum){
+    return this.serialNum;
+}
 
