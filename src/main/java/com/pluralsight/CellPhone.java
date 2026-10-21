@@ -50,3 +50,10 @@ public void setPhoneNum(String phoneNum){
     return this.phoneNum;
 }
 
+public String getOwner(){
+    return owner;
+}
+
+public void setOwner(String owner){
+    return this.owner;
+}
