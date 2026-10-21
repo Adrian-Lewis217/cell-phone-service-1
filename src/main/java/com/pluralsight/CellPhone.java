@@ -21,7 +21,7 @@ public int getSerialNum(){
 }
 
 public void setSerialNum(int serialNum){
-    return this.serialNum;
+    this.serialNum = serialNum;
 }
 
 public String getModel(){
@@ -29,7 +29,7 @@ public String getModel(){
 }
 
 public void setModel(String model){
-    return this.model;
+    this.model = model;
 }
 
 public String getCarrier(){
@@ -37,15 +37,15 @@ public String getCarrier(){
 }
 
 public void setCarrier(String carrier){
-    return this.carrier;
+    this.carrier = carrier;
 }
 
 public String getPhoneNum(){
-    return phoneNum;
+        return phoneNum;
 }
 
 public void setPhoneNum(String phoneNum){
-    return this.phoneNum;
+        this.phoneNum = phoneNum;
 }
 
 public String getOwner(){
@@ -53,5 +53,5 @@ public String getOwner(){
 }
 
 public void setOwner(String owner){
-    return this.owner;
+    this.owner = owner;
 }
