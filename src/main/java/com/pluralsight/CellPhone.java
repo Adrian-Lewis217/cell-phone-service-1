@@ -6,10 +6,8 @@ public class CellPhone {
     private String carrier;
     private String phoneNum;
     private String owner;
-}
-
 // constructor
-public CellPhone(){
+    public CellPhone(){
     this.serialNum = 0;
     this.model = "";
     this.carrier = "";
